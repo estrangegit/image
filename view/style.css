@@ -1,0 +1,154 @@
+body {
+    font-family:"verdana", "arial", "sans-serif";
+    color: 	#2F4F4F;
+
+    background-image: url("../model/data/wallpaper/wallpaper_black.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   }
+
+.navbar-inverse{
+    background-color: transparent;
+    border-color: white;
+}
+
+#main{
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    color: white;
+}
+
+#main h1{
+    text-align: center;
+}
+
+#topBigWhiteSpace{
+    height: 100px;
+}
+
+#topSmallWhiteSpace{
+    height: 50px;
+}
+
+#entete {
+ border-bottom: 1px solid antiquewhite;
+}
+  
+
+#connexionForm legend{
+    color: white;
+}
+
+#menu {
+	margin-top: 5px;
+	width:13%;
+	float: left;
+}
+
+#menu h3 {
+	text-align:center;
+	}
+
+#menu a:link, #menu a:visited, #menu a:active, #menu a {
+    color: lightgrey;
+}
+  
+#menu a:hover {
+    color: #FFFFFF;
+    font-style: italic;
+ }
+
+#corps{
+	margin-left:13%;
+	padding: 10px;
+/*	border-left: 1px solid white; */
+	overflow:hidden;
+    text-align: center;
+ }
+
+#corps div{
+    clear: both;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#corps .metaData{
+    display: block;
+}
+
+.badge{
+    background-color: dodgerblue;
+}
+
+#corps p{
+    text-align: center;
+}
+
+#corps a:link, a:visited, a:active {    
+  color: white; }
+  
+#corps a:hover { 
+    color: #FFFFFF;
+    font-style: italic;
+    text-decoration: none;
+  }
+
+#corps img.imageMatrix{
+    border : 5px solid lightgrey;
+    margin-bottom: 5px;
+}
+
+#editLink a, #editLink a:link, #editLink a:visited, #editLink a:active{
+    color : black;
+}
+
+#prevNextLink ul li a, #prevNextLink ul li a:hover, #prevNextLink ul li a:link, #prevNextLink ul li a:visited, #prevNextLink ul li a:active{
+    color: #0f0f0f;
+}
+
+#choiceCategoryForm label{
+    color: white;
+    padding-top: 23px;
+    position: relative;
+    left: 50px;
+}
+
+#choiceCategoryForm{
+    margin-bottom: 5px;
+}
+
+#pied {
+	margin-top: 20px;
+	border: 1px solid white;
+	clear:left;
+}
+
+
+#linkImageEdit, #modifCategoryForm{
+    display: block;
+}
+
+#modifCategoryForm div{
+    width: 100%;
+}
+
+#modifCategoryForm .control-label{
+    text-align: left;
+}
+
+#modifCategoryForm a, #modifCategoryForm a:hover, #modifCategoryForm a:active, #modifCategoryForm a:link, #modifCategoryForm a:visited{
+    color: black;
+}
+
+#modifCategoryForm a:hover{
+    font-style: normal;
+}
+
+#linkImageEdit img{
+    border : 5px solid lightgrey;
+}
+
+div#onePagePicture{
+    display: block; !important;
+}
